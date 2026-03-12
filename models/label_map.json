@@ -1,0 +1,6 @@
+import json
+
+label_map = {i: label for i, label in enumerate(sorted(set(labels)))}
+
+with open("../models/label_map.json", "w") as f:
+    json.dump(label_map, f)

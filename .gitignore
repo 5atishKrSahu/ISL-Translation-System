@@ -1,6 +1,40 @@
+# Virtual environment
+
 venv/
-__pycache__/
+env/
+
+# Python cache
+
+**pycache**/
 *.pyc
-*.h5
+*.pyo
+
+# Jupyter notebooks checkpoints
+
+.ipynb_checkpoints/
+
+# Dataset (usually large)
+
 dataset/
+
+# Model files
+
+models/*.pkl
+models/*.h5
+
+# Environment variables
+
 .env
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+
+.vscode/
+
+# Logs
+
+*.log
